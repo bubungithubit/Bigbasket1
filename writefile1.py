@@ -8,7 +8,8 @@ sheet=workbook.active
 
 for r in range(1,8):
     for c in range(1,3):
-       sheet.cell(row=r, column=c).value="product Name"
+      sheet.cell(row=r, column=c).value="product Name"
+
 
 for r in range(2,8):
     for c in range(1,2):
